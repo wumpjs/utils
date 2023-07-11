@@ -1,0 +1,55 @@
+{
+  "name": "@wumpjs/utils",
+  "version": "1.0.0",
+  "description": "Some Utils for Wump.JS",
+  "main": "./src/index.js",
+  "type": "module",
+  "exports": {
+    "import": "./src/index.js",
+    "require": "./build/index.cjs",
+    "types": "./src/global.d.ts"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wumpjs/utils.git"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/wumpjs/utils"
+  },
+  "keywords": [
+    "wump",
+    "wump.js",
+    "discord",
+    "utils"
+  ],
+  "author": "Davut Özgür Süküti",
+  "contributors": [
+    {
+      "name": "Rexar",
+      "contact": "github.com/davutozgursukuti4531"
+    },
+    {
+      "name": "Nicat Dcw",
+      "contact": "github.com/Nicat-dcw"
+    },
+    {
+      "name": "Erqewee",
+      "contact": "github.com/erqeweew"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wumpjs/utils/issues"
+  },
+  "homepage": "https://github.com/wumpjs/utils#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.6",
+    "@babel/core": "^7.22.8",
+    "@babel/plugin-syntax-import-attributes": "^7.22.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.22.5"
+  }
+}
