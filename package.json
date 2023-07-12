@@ -1,8 +1,13 @@
 {
   "name": "@wumpjs/utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Some Utils for Wump.JS",
   "main": "./src/index.js",
+  "types": "./src/global.d.ts",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "type": "module",
   "exports": {
     "import": "./src/index.js",
